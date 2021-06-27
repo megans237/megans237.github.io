@@ -1,0 +1,133 @@
+:root {
+    /* This styling will be applied globally */
+    --floral-white: #fffcf2ff;
+    --pale-silver: #ccc5b9ff;
+    --black-olive: #403d39ff;
+    --eerie-black: #202022ff;
+    --cerise: #da4167ff;
+
+    padding:10px;
+
+    /* Landing page */
+
+    position: relative;
+    width: 1440px;
+    height: 3175px;
+
+    background: var(--eerie-black);
+
+}
+
+.highlight-box {
+    border-radius: 10px;
+    border: 7px solid var(--eerie-black);
+    background-color: var(--cerise);
+    color: var(--eerie-black);
+    padding: 10px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.vyper {
+    /* VYPER */
+
+    position: absolute;
+    left: 1150px;
+    top: 25px;
+
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+
+    color: var(--cerise);
+
+}
+
+.basic {
+    background: var(--eerie-black);
+    color: white;
+    font-family: Futura;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.header-right {
+    font-family: Futura;
+    font-style: normal;
+    padding: 60px 100px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-align: right;
+    background: var(--eerie-black);
+    color: #FFFFFF;
+}
+
+.header-left {
+    font-family: Futura;
+    font-style: normal;
+    padding: 60px 100px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    background: var(--eerie-black);
+    color: #FFFFFF;
+
+}
+
+
+.spotifylist {
+
+    position: absolute;
+    width: 600px;
+    height: 372px;
+    left: 678px;
+    top: 250px;
+
+}
+
+.linevert {
+    position: absolute;
+    height: 372px;
+    left: 625px;
+    top: 250px;
+}
+
+.buttonside {
+    padding: 50px 100px;
+    font-family: Futura;
+    font-style: normal;
+    align-items: center;
+    background: var(--eerie-black);
+
+}
+
+.break {
+    padding: 20px 100px;
+    background: var(--eerie-black);  
+}
+
+.cloud1 {
+    position: absolute;
+    width: 407px;
+    height: 228px;
+    left: 120px;
+    top: 600px;
+}
+
+.stereo {
+
+    position: absolute;
+    width: 159px;
+    height: 285px;
+    left: 1043px;
+    top: 1046px;
+}
